@@ -4,6 +4,7 @@ __all__ = ['init_player', 'combat', 'COMBAT_OPTIONS', 'game_loop']
 
 # Cell
 def init_player():
+    "Initializes a player, `Mage`, with the user's speciality and name"
     print(f"Hi there, what is your speciality? {Ability.ability_types}")
     while True:
         ability_type = input()
@@ -18,6 +19,7 @@ def init_player():
 COMBAT_OPTIONS = ["attack"]
 
 def combat(player, boss):
+    "Perform combat between a player, `Mage`, which was generated with the `init_player`, and a `Demon`"
     print("Combat has begun!")
     while True:
         print(player)

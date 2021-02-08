@@ -1,6 +1,8 @@
 {
   "ncoop57_mages": {
     "Overview": "/",
-    "module name here": "game.html"
+    "Core": "core.html",
+    "Game": "game.html",
+    "Tutorial - Overview": "tutorials.overview.html"
   }
 }

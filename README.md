@@ -1,4 +1,4 @@
-# Project name here
+# Mages
 > Summary description here.
 
 
@@ -15,10 +15,3 @@ Fill me in please! Don't forget code examples:
 ```
 1+1
 ```
-
-
-
-
-    2
-
-

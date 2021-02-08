@@ -10,8 +10,14 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: module name here
+      title: Core
+      url: core.html
+    - output: web,pdf
+      title: Game
       url: game.html
+    - output: web,pdf
+      title: Tutorial - Overview
+      url: tutorials.overview.html
     output: web
     title: ncoop57_mages
   output: web
