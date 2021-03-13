@@ -14,7 +14,7 @@ entries:
       url: core.html
     - output: web,pdf
       title: Game
-      url: game.html
+      url: cli.html
     - output: web,pdf
       title: Tutorial - Overview
       url: tutorials.overview.html

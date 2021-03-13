@@ -3,6 +3,9 @@
 __all__ = ['init_player', 'combat', 'COMBAT_OPTIONS', 'game_loop']
 
 # Cell
+from .core import Mage, Ability, Demon
+
+# Cell
 def init_player():
     "Initializes a player, `Mage`, with the user's speciality and name"
     print(f"Hi there, what is your speciality? {Ability.ability_types}")

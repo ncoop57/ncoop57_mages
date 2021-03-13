@@ -9,10 +9,12 @@ index = {"Ability": "00_core.ipynb",
          "init_player": "01_game.ipynb",
          "combat": "01_game.ipynb",
          "COMBAT_OPTIONS": "01_game.ipynb",
-         "game_loop": "01_game.ipynb"}
+         "game_loop": "01_game.ipynb",
+         "main": "03_cli.ipynb"}
 
 modules = ["core.py",
-           "game.py"]
+           "game.py",
+           "cli.py"]
 
 doc_url = "https://ncoop57.github.io/ncoop57_mages/"
 

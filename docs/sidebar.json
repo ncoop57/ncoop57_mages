@@ -2,7 +2,7 @@
   "ncoop57_mages": {
     "Overview": "/",
     "Core": "core.html",
-    "Game": "game.html",
+    "Game": "cli.html",
     "Tutorial - Overview": "tutorials.overview.html"
   }
 }

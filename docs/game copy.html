@@ -78,43 +78,14 @@ nb_path: "01_game copy.ipynb"
 </div>
     {% endraw %}
 
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">player</span> <span class="o">=</span> <span class="n">init_player</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">player</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hi there, what is your speciality? [&#39;fire&#39;, &#39;water&#39;]
-        Nathan&#39;s Current Health: 100
-        Nathan&#39;s Max Health: 100
-        Nathan&#39;s Ability Damage: 10
-        Nathan&#39;s Ability Type: water
-        
-</pre>
-</div>
-</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>player = init_player()
+print(player)</p>
 
 </div>
 </div>
-
 </div>
-    {% endraw %}
-
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -147,86 +118,14 @@ nb_path: "01_game copy.ipynb"
 </div>
     {% endraw %}
 
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">boss</span> <span class="o">=</span> <span class="n">Demon</span><span class="p">(</span><span class="s2">&quot;Jerry&quot;</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
-<span class="n">combat</span><span class="p">(</span><span class="n">player</span><span class="p">,</span> <span class="n">boss</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Combat has begun!
-        Nathan&#39;s Current Health: 100
-        Nathan&#39;s Max Health: 100
-        Nathan&#39;s Ability Damage: 10
-        Nathan&#39;s Ability Type: water
-        
-        Jerry&#39;s Current Health: 30
-        Jerry&#39;s Max Health: 30
-        Jerry&#39;s Ability Damage: 10
-        Jerry&#39;s Ability Type: fire
-        
-What do you want to do? [&#39;attack&#39;]
-From Nathan&#39;s wand, ice cold water is flung towards Jerry.
-From Jerry&#39;s wand, a jet of fire shot towards Nathan.
-        Nathan&#39;s Current Health: 90
-        Nathan&#39;s Max Health: 100
-        Nathan&#39;s Ability Damage: 10
-        Nathan&#39;s Ability Type: water
-        
-        Jerry&#39;s Current Health: 20
-        Jerry&#39;s Max Health: 30
-        Jerry&#39;s Ability Damage: 10
-        Jerry&#39;s Ability Type: fire
-        
-What do you want to do? [&#39;attack&#39;]
-From Nathan&#39;s wand, ice cold water is flung towards Jerry.
-From Jerry&#39;s wand, a jet of fire shot towards Nathan.
-        Nathan&#39;s Current Health: 80
-        Nathan&#39;s Max Health: 100
-        Nathan&#39;s Ability Damage: 10
-        Nathan&#39;s Ability Type: water
-        
-        Jerry&#39;s Current Health: 10
-        Jerry&#39;s Max Health: 30
-        Jerry&#39;s Ability Damage: 10
-        Jerry&#39;s Ability Type: fire
-        
-What do you want to do? [&#39;attack&#39;]
-From Nathan&#39;s wand, ice cold water is flung towards Jerry.
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;ncoop57_mages.core.Mage at 0x7f4420209d60&gt;</pre>
-</div>
-
-</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>boss = Demon("Jerry", 30)
+combat(player, boss)</p>
 
 </div>
 </div>
-
 </div>
-    {% endraw %}
-
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -258,106 +157,14 @@ From Nathan&#39;s wand, ice cold water is flung towards Jerry.
 </div>
     {% endraw %}
 
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">player</span> <span class="o">=</span> <span class="n">init_player</span><span class="p">()</span>
-<span class="n">game_loop</span><span class="p">(</span><span class="n">player</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hi there, what is your speciality? [&#39;fire&#39;, &#39;water&#39;]
-A demon named Gary appeared! They seem to have a chip on their shoulder and want to fight you.
-Combat has begun!
-        Nathan&#39;s Current Health: 100
-        Nathan&#39;s Max Health: 100
-        Nathan&#39;s Ability Damage: 10
-        Nathan&#39;s Ability Type: water
-        
-        Gary&#39;s Current Health: 50
-        Gary&#39;s Max Health: 50
-        Gary&#39;s Ability Damage: 10
-        Gary&#39;s Ability Type: fire
-        
-What do you want to do? [&#39;attack&#39;]
-From Nathan&#39;s wand, ice cold water is flung towards Gary.
-From Gary&#39;s wand, a jet of fire shot towards Nathan.
-        Nathan&#39;s Current Health: 90
-        Nathan&#39;s Max Health: 100
-        Nathan&#39;s Ability Damage: 10
-        Nathan&#39;s Ability Type: water
-        
-        Gary&#39;s Current Health: 40
-        Gary&#39;s Max Health: 50
-        Gary&#39;s Ability Damage: 10
-        Gary&#39;s Ability Type: fire
-        
-What do you want to do? [&#39;attack&#39;]
-From Nathan&#39;s wand, ice cold water is flung towards Gary.
-From Gary&#39;s wand, a jet of fire shot towards Nathan.
-        Nathan&#39;s Current Health: 80
-        Nathan&#39;s Max Health: 100
-        Nathan&#39;s Ability Damage: 10
-        Nathan&#39;s Ability Type: water
-        
-        Gary&#39;s Current Health: 30
-        Gary&#39;s Max Health: 50
-        Gary&#39;s Ability Damage: 10
-        Gary&#39;s Ability Type: fire
-        
-What do you want to do? [&#39;attack&#39;]
-From Nathan&#39;s wand, ice cold water is flung towards Gary.
-From Gary&#39;s wand, a jet of fire shot towards Nathan.
-        Nathan&#39;s Current Health: 70
-        Nathan&#39;s Max Health: 100
-        Nathan&#39;s Ability Damage: 10
-        Nathan&#39;s Ability Type: water
-        
-        Gary&#39;s Current Health: 20
-        Gary&#39;s Max Health: 50
-        Gary&#39;s Ability Damage: 10
-        Gary&#39;s Ability Type: fire
-        
-What do you want to do? [&#39;attack&#39;]
-From Nathan&#39;s wand, ice cold water is flung towards Gary.
-From Gary&#39;s wand, a jet of fire shot towards Nathan.
-        Nathan&#39;s Current Health: 60
-        Nathan&#39;s Max Health: 100
-        Nathan&#39;s Ability Damage: 10
-        Nathan&#39;s Ability Type: water
-        
-        Gary&#39;s Current Health: 10
-        Gary&#39;s Max Health: 50
-        Gary&#39;s Ability Damage: 10
-        Gary&#39;s Ability Type: fire
-        
-What do you want to do? [&#39;attack&#39;]
-From Nathan&#39;s wand, ice cold water is flung towards Gary.
-Well done, you beat Gary and leveled up to 2!
-Congradulations, you&#39;ve defeated all the bosses and won the game. Nathan&#39;s name shall go down in history!
-</pre>
-</div>
-</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>player = init_player()
+game_loop(player, 1)</p>
 
 </div>
 </div>
-
 </div>
-    {% endraw %}
-
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
